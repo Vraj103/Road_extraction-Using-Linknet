@@ -1,5 +1,6 @@
 Project updates:
 
+    2024-05-02
     |--Updated the jupyter notboook with the code performing an automatic road extraction using deep learning.
     |--Software used: Arcgis pro to process the data and create necessary files needed to support the library arcgis.learn
     |--Data used: Downloaded the pre-processed and already uploaded data by Spacenet of city paris.
