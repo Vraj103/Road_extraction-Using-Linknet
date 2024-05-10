@@ -1,12 +1,19 @@
 Project updates:
 
-    2024-05-02
-    |--Updated the jupyter notboook with the code performing an automatic road extraction using deep learning.
-    |--Software used: Arcgis pro to process the data and create necessary files needed to support the library arcgis.learn
-    |--Data used: Downloaded the pre-processed and already uploaded data by Spacenet of city paris.
-    |--Python env used: arcgispro3 enviornment provided by ArcgisPro.
-    |--Model used: MultitaskRoadextractor() provided in arcgis.learn (A cnn implemented with U-net architecture)
-    |--A 99.8% accuracy obtained which might be overfitting so looking into new models with new and unprocessed data
+2024--05-10
+
+- [ ] Create the smaller size images/tiles (the size will be equal to the size of the images given during training of the model) for GTA and San Fricisco.
+- [ ] Create a python script to create images for given size by considering a parameter of sliding window (make sure the names are generated carefully so that you can use them in the next phase)
+- [ ] Feed the images/tiles to the model in sequential manner for the area under observation
+- [ ] Crete a python script that can stich together the images to make a bigger image and then we will convert that bigger image to extract the road network.
+
+2024-05-02
+|--Updated the jupyter notboook with the code performing an automatic road extraction using deep learning.
+|--Software used: Arcgis pro to process the data and create necessary files needed to support the library arcgis.learn
+|--Data used: Downloaded the pre-processed and already uploaded data by Spacenet of city paris.
+|--Python env used: arcgispro3 enviornment provided by ArcgisPro.
+|--Model used: MultitaskRoadextractor() provided in arcgis.learn (A cnn implemented with U-net architecture)
+|--A 99.8% accuracy obtained which might be overfitting so looking into new models with new and unprocessed data
     
 =============================
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=14949423&assignment_repo_type=AssignmentRepo)
