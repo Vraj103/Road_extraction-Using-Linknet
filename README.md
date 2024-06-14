@@ -1,6 +1,7 @@
 Project updates:
 
 2024-06-14
+- [ ] **The bottleneck is about the pararmeters (functions that classifies the pixel) and about emd file.**
 - [ ] Did you get the output of an image from the training set?
 - [ ] Did you get the output of an image from the dataset other than test data?
 - [ ] Were you able prepare the Sentinel2 dataset for the experimentation
