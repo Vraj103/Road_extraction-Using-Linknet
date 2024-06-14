@@ -1,5 +1,14 @@
 Project updates:
+
+2024-06-14
+- [ ] Did you get the output of an image from the training set?
+- [ ] Did you get the output of an image from the dataset other than test data?
+- [ ] Were you able prepare the Sentinel2 dataset for the experimentation
+- [ ] Did you get the output of an image from the dataset other than test data?
+- [ ] Feed the images/tiles to the model in sequential manner for the area under observation
+
 2024-05-31
+
 - [ ] Feed the images/tiles to the model in sequential manner for the area under observation
 
 2024--05-10
