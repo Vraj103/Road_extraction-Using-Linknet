@@ -1,11 +1,14 @@
 Project updates:
 
+2024-06-21
+-[] Retrain the model with lesser data and more epochs.
+
 2024-06-14
-- [ ] **The bottleneck is about the pararmeters (functions that classifies the pixel) and about emd file.**
-- [ ] Did you get the output of an image from the training set?
-- [ ] Did you get the output of an image from the dataset other than test data?
+- [X] **The bottleneck is about the pararmeters (functions that classifies the pixel) and about emd file.**
+- [X] Did you get the output of an image from the training set?
+- [X] Did you get the output of an image from the dataset other than test data?
 - [ ] Were you able prepare the Sentinel2 dataset for the experimentation
-- [ ] Did you get the output of an image from the dataset other than test data?
+- [X] Did you get the output of an image from the dataset other than test data?
 - [ ] Feed the images/tiles to the model in sequential manner for the area under observation
 
 2024-05-31
