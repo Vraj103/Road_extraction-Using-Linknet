@@ -2,6 +2,8 @@ Project updates:
 
 2024-06-21
 -[] Retrain the model with lesser data and more epochs.
+-[] Implement super resolution to better the resolution of senteniel2 data
+-[] Find a dataset with coordinates system if possible to make sequential data work well with arcgis.
 
 2024-06-14
 - [X] **The bottleneck is about the pararmeters (functions that classifies the pixel) and about emd file.**
