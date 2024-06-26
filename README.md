@@ -1,12 +1,12 @@
 Project updates:
 2024-06-26
-- [] Upon experimentation, the model takes images as inputs rather than tif or Geotif files.
-- [] Retraining the model with senteniel-2 training data as super resolution didn't have much effect. 
+- [ ] Upon experimentation, the model takes images as inputs rather than tif or Geotif files.
+- [ ] Retraining the model with senteniel-2 training data as super resolution didn't have much effect. 
 
 2024-06-21
-- [] Retrain the model with lesser data and more epochs.(ongoing)
+- [ ] Retrain the model with lesser data and more epochs.(ongoing)
 - [X] Implement super resolution to better the resolution of senteniel2 data
-- [] Find a dataset with coordinates system if possible to make sequential data work well with arcgis.
+- [ ] Find a dataset with coordinates system if possible to make sequential data work well with arcgis.
 
 2024-06-14
 - [X] **The bottleneck is about the pararmeters (functions that classifies the pixel) and about emd file.**
