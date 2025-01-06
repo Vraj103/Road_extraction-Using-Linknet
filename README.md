@@ -1,12 +1,21 @@
 Project updates:
+
+2025-01-06
+To utilise the code, please refer to the RNE(2) notebook in the notebooks folder. And for graphs, see the report folder. 
+
+- [x] Added pre-processing steps like converting the data into arcgis-suitable format, resizing and masking with documentation.
+- [x] Used 3 primary models; Linknet with resent-34, Unet with mobilenet-V3 and PSPnet with resent-50.
+- [x] Used 3000 512x512 data for training and trained for 11 epochs each.
+- [x] Also, added charts and vizualizations.    
+
 2024-06-26
-- [ ] Upon experimentation, the model takes images as inputs rather than tif or Geotif files.
-- [ ] Retraining the model with senteniel-2 training data as super resolution didn't have much effect. 
+- [x] Upon experimentation, the model takes images as inputs rather than tif or Geotif files.
+- [x] Retraining the model with senteniel-2 training data as super resolution didn't have much effect. 
 
 2024-06-21
-- [ ] Retrain the model with lesser data and more epochs.(ongoing)
+- [x] Retrain the model with lesser data and more epochs.(ongoing)
 - [X] Implement super resolution to better the resolution of senteniel2 data
-- [ ] Find a dataset with coordinates system if possible to make sequential data work well with arcgis.
+- [x] Find a dataset with coordinates system if possible to make sequential data work well with arcgis.
 
 2024-06-14
 - [X] **The bottleneck is about the pararmeters (functions that classifies the pixel) and about emd file.**
